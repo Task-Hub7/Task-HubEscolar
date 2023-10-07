@@ -1,0 +1,63 @@
+/* Versão da Pagina de criação de conta.html */
+
+
+@media (min-width: 1524px) {
+
+
+
+
+
+    fieldset {
+        border: none;
+        width: 40% !important;
+        padding: 5%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        margin-top: 2% !important;
+        margin: 0 auto; /* Define margens automáticas horizontalmente */
+        width: fit-content; /* Ajusta a largura do fieldset ao seu conteúdo */
+       }
+
+
+
+
+      
+
+
+
+   .imagem-logo img {
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5% !important;
+    } 
+
+
+
+
+
+
+
+
+
+    #date {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: #00adb5;
+        background-color: #eeeeee;
+        padding: 2px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 10% !important;
+        margin-left: 90% !important;
+        transform: translateY(-5px);
+        }
+
+
+
+
+        
+
+}

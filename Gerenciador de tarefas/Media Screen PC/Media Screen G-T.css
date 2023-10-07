@@ -1,0 +1,77 @@
+/*  Versão do Gerenciar Tarefas.html */
+
+
+
+@media (min-width: 1524px) {
+
+
+
+.task {
+ background-color: rgb(32, 39, 50);
+ border-radius: 4px;
+ padding: 10px;
+ margin-bottom: 10px;
+ position: relative;
+ width: 45vw !important;
+ margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+.task-name {
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin-bottom: 5px !important;
+    font-size: 14.5px !important; 
+    max-width: 600px !important; /* Ajuste o valor conforme necessário */
+    word-wrap: break-word !important;
+  }
+
+
+
+
+
+
+
+
+  .botao-invisivel-lista button {
+    position: fixed;
+    left: 48% !important;
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    background-color: transparent; border: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1524px)  {
+  /* Estilos para o iPad Air no modo retrato */
+  
+  .botao-invisivel-lista button {
+    position: fixed;
+    left: 47% !important;
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    background-color: transparent; border: none;
+    }
+}
